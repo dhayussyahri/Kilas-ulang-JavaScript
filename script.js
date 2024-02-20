@@ -48,8 +48,16 @@
 
 const role = prompt('masukkan role akun');
 
-if (role === 'admin' || role === 'spv') {
-  console.log('akses diizinkan');
-} else {
+// Operator Logic or
+// if (role === 'admin' || role === 'spv') {
+//   console.log('akses diizinkan');
+// } else {
+//   console.log('akses ditolak');
+// }
+
+// Operator not
+if (role !== 'admin') {
   console.log('akses ditolak');
+} else {
+  console.log('akses diizinkan');
 }
