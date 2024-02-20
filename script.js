@@ -46,7 +46,7 @@
 //   console.log('password tidak memenuhi syarat');
 // }
 
-const role = prompt('masukkan role akun');
+// const role = prompt('masukkan role akun');
 
 // Operator Logic or
 // if (role === 'admin' || role === 'spv') {
@@ -56,8 +56,21 @@ const role = prompt('masukkan role akun');
 // }
 
 // Operator not
-if (role !== 'admin') {
-  console.log('akses ditolak');
-} else {
-  console.log('akses diizinkan');
+// if (role !== 'admin') {
+//   console.log('akses ditolak');
+// } else {
+//   console.log('akses diizinkan');
+// }
+
+// Operator switch
+const balonku = prompt('input warna balon');
+switch (balonku) {
+  case 'merah':
+    console.log('warna merah');
+    break;
+  case 'hijau':
+    console.log('dooor');
+    break;
+  default:
+    console.log('bukan balon saya');
 }
