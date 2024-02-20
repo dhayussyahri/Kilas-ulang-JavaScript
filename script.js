@@ -16,10 +16,26 @@
 //   console.log("Angka lebih kecil dari 0,5")
 // }
 
-const iniHari = "Senin"
+// IF ELSE STATEMENT
+// const iniHari = prompt("isikan hari").toLowerCase()
 
-if (iniHari === "Senin") {
-  console.log("Selamat Bekerja Kawan")
-} else if (iniHari === "Sabtu") {
-  console.log("Semoga jangan cepat berlalu")
+// if (iniHari === "senin") {
+//   console.log("Selamat Bekerja Kawan")
+// } else if (iniHari === "sabtu") {
+//   console.log("Semoga jangan cepat berlalu")
+// } else {
+//   console.log("Yah Biasa aja")
+// }
+
+const password = prompt('buat password');
+
+// Password harus sepanjang 6 karakter.
+if (password.length >= 6) {
+  if (password.indexOf(' ') === -1) {
+    console.log('password valid');
+  } else {
+    console.log('Password tidak boleh ada spasi');
+  }
+} else {
+  console.log('Password minimal 6 karakter');
 }
