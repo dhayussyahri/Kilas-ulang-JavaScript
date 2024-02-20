@@ -27,7 +27,7 @@
 //   console.log("Yah Biasa aja")
 // }
 
-const password = prompt('buat password');
+// const password = prompt('buat password');
 
 // Password harus sepanjang 6 karakter.
 // if (password.length >= 6) {
@@ -40,8 +40,16 @@ const password = prompt('buat password');
 //   console.log('Password minimal 6 karakter');
 // }
 
-if (password.length >= 6 && password.indexOf(' ') === -1) {
-  console.log('password valid');
+// if (password.length >= 6 && password.indexOf(' ') === -1) {
+//   console.log('password valid');
+// } else {
+//   console.log('password tidak memenuhi syarat');
+// }
+
+const role = prompt('masukkan role akun');
+
+if (role === 'admin' || role === 'spv') {
+  console.log('akses diizinkan');
 } else {
-  console.log('password tidak memenuhi syarat');
+  console.log('akses ditolak');
 }
