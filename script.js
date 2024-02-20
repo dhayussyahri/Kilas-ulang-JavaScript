@@ -1,3 +1,5 @@
+// JavaScript Logic Pembuat keputusan
+
 // console.log("sebelum pembanding")
 // if (1 + 1 === 2) {
 //   console.log("Perhitungan masih betul")
