@@ -26,16 +26,32 @@
 // }
 
 // mendapatkan data dari Nasted Array dengan Nasted Loop
-const studentRow = [
-  ['Olivia', 'Liam', 'Emna', 'Noah'],
-  ['Amelia', 'Oliver', 'Ava', 'Elijah'],
-  ['Sophia', 'Mateo', 'Isabella', 'Lucas']
-];
+// const studentRow = [
+//   ['Olivia', 'Liam', 'Emna', 'Noah'],
+//   ['Amelia', 'Oliver', 'Ava', 'Elijah'],
+//   ['Sophia', 'Mateo', 'Isabella', 'Lucas']
+// ];
 
-for (let i = 0; i <= studentRow.length; i++) {
-  const row = studentRow[i];
-  console.log(`Seat box #${i + i}`);
-  for (let j = 0; j < row.length; j++) {
-    console.log(`  ${row[j]}`);
-  }
+// for (let i = 0; i <= studentRow.length; i++) {
+//   const row = studentRow[i];
+//   console.log(`Seat box #${i + i}`);
+//   for (let j = 0; j < row.length; j++) {
+//     console.log(`  ${row[j]}`);
+//   }
+// }
+
+
+// Perulangan menggunakan while
+// let num = 0;
+// while (num < 10) {
+//   console.log(num);
+//   num++;
+// }
+
+const PASSWORD = 'Pass123';
+
+let guess = prompt('enter the password');
+while (guess !== PASSWORD) {
+  guess = prompt('enter the password');
 }
+alert('the password is correct');
