@@ -17,10 +17,25 @@
 // }
 
 // Nasted Loop
-const pilihan = 'abcd';
-for (let i = 1; i <= 10; i++) {
- console.log(`${i}. Soal nomer ${i}:`)
- for (let j = 0; j < pilihan.length; j++) {
-  console.log(`${pilihan[j]}. pilihan jawaban`);
- }
+// const pilihan = 'abcd';
+// for (let i = 1; i <= 10; i++) {
+//  console.log(`${i}. Soal nomer ${i}:`)
+//  for (let j = 0; j < pilihan.length; j++) {
+//   console.log(`${pilihan[j]}. pilihan jawaban`);
+//  }
+// }
+
+// mendapatkan data dari Nasted Array dengan Nasted Loop
+const studentRow = [
+  ['Olivia', 'Liam', 'Emna', 'Noah'],
+  ['Amelia', 'Oliver', 'Ava', 'Elijah'],
+  ['Sophia', 'Mateo', 'Isabella', 'Lucas']
+];
+
+for (let i = 0; i <= studentRow.length; i++) {
+  const row = studentRow[i];
+  console.log(`Seat box #${i + i}`);
+  for (let j = 0; j < row.length; j++) {
+    console.log(`  ${row[j]}`);
+  }
 }
