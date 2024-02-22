@@ -145,15 +145,27 @@
 // *****************************************************
 
 // Definisi Sebuah Method
-function myFun() { //function biasa
-  console.log('Hi');
-  return 'Hello';
+// function myFun() { //function biasa
+//   console.log('Hi');
+//   return 'Hello';
 
-};
+// };
 
-const myMath = { //object
-  perkalian : function (x, y) { //method
-    return x * y;
+// const myMath = { //object
+//   perkalian : function (x, y) { //method
+//     return x * y;
+//   },
+
+// };
+
+// ***************************************************
+
+// This Adalah Keyword Sakti
+const saya = {
+  nama: 'Dhayus',
+  hobi: 'Coding',
+  kenalan: function () {
+    return `Hai, saya ${this.nama}. hobi saya ${this.hobi}`;
   },
 
 };
