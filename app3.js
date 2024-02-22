@@ -161,11 +161,39 @@
 // ***************************************************
 
 // This Adalah Keyword Sakti
-const saya = {
-  nama: 'Dhayus',
-  hobi: 'Coding',
-  kenalan: function () {
-    return `Hai, saya ${this.nama}. hobi saya ${this.hobi}`;
-  },
+// const saya = {
+//   nama: 'Dhayus',
+//   hobi: 'Coding',
+//   kenalan: function () {
+//     return `Hai, saya ${this.nama}. hobi saya ${this.hobi}`;
+//   },
 
-};
+// };
+
+// ***********************************************************
+
+// Try And Catch Adalah Penyelamat
+
+// try {
+//   SafeArray.kenalan()
+
+// } catch {
+
+//   console.log('error !!')
+
+// }
+
+// // saya.kenalan();
+// console.log('Setelah proses Try and Catch !');
+
+function teriak(msg) {
+  try {
+    console.log(msg.toUpperCase());
+
+  } catch (error) {
+    console.log(error);
+    console.log('Silahkan masukkan tipe data string pada argumen');
+
+  }
+
+}
