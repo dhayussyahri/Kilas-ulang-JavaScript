@@ -21,6 +21,14 @@
 // *******************************************************
 
 // Argument Dan Parameter Dalam Function
-function selamatPagi(name) {
-  console.log(`Hello, ${name}. Selamat Pagi`);
+// function selamatPagi(name) {
+//   console.log(`Hello, ${name}. Selamat Pagi`);
+// }
+
+// ********************************************************
+
+// Multiple Parameter Dan Argument
+function jumlahankan(a, b) {
+  const total = a + b;
+  console.log(total);
 }
