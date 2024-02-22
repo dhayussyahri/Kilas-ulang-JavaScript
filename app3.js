@@ -46,11 +46,28 @@
 // ******************************************************
 
 // Visibilitas Variabel Sesuai Scope Atau Ruang Lingkup
-let programming = 'javascript';
+// let programming = 'javascript';
 
-function typesafe() {
-  let programming = 'javascript';
-  console.log(programming)
+// function typesafe() {
+//   let programming = 'javascript';
+//   console.log(programming)
+// }
+
+// typesafe();
+
+// ****************************************************
+
+// Blocked Scope Variabel
+let tinggi = 8;
+if (tinggi > 5) {
+  var lebar = 10;
 }
 
-typesafe();
+console.log('lebar',lebar);
+
+for (let index = 0; index < 10; index++) {
+  var indexNumber = index;
+  // console.log(indexNumber);
+}
+console.log('index :', indexNumber);
+
