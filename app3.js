@@ -5,8 +5,15 @@
 // let LemparDadu = Math.floor(Math.random() * 6) + 1;
 // console.log(LemparDadu);
 
-function LemparDadu() {
-  console.log(Math.floor(Math.random() * 6) + 1);
-}
+// function LemparDadu() {
+//   console.log(Math.floor(Math.random() * 6) + 1);
+// }
 
 // Panggil di console browser dengan LemparDadu()
+
+// ********************************************************
+// Mendefinisikan Dan Menjalankan Function
+function nyanyi() {
+  console.log('Cek....');
+  console.log('Do Re Mii ....');
+}
