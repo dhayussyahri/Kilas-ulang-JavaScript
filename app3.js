@@ -102,9 +102,23 @@
 
 // let hasil = perpangkatan(5);
 
-const hasilPerpangkatan = function (nilai) {
-  return nilai * nilai;
+// const hasilPerpangkatan = function (nilai) {
+//   return nilai * nilai;
 
-};
+// };
 
-hasilPerpangkatan(10);
+// hasilPerpangkatan(10);
+
+// ***********************************************
+
+// Function Sebagai Argument Function Lain
+function duaKali(func) {
+  func();
+  func();
+
+}
+
+function LemparDadu() {
+  const hasil = Math.floor(Math.random() * 6) + 1;
+  console.log(hasil);
+}
