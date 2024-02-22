@@ -75,18 +75,36 @@
 
 // Lexical Scope
 
-function lamarKerja() {
-  const jabatan = 'programmer';
+// function lamarKerja() {
+//   const jabatan = 'programmer';
 
-  function lebihDalam() {
-    function orangDalam() {
-      let kenalan = `Orang dalam bisa memasukkan ${jabatan}`;
-      console.log(kenalan);
-    }
+//   function lebihDalam() {
+//     function orangDalam() {
+//       let kenalan = `Orang dalam bisa memasukkan ${jabatan}`;
+//       console.log(kenalan);
+//     }
 
-    orangDalam();
+//     orangDalam();
 
-  }
-  lebihDalam()
+//   }
+//   lebihDalam()
 
-}
+// }
+
+// ***************************************************
+
+//  Function Expressions
+
+// function perpangkatan(nilai) {
+//   return nilai * nilai;
+
+// }
+
+// let hasil = perpangkatan(5);
+
+const hasilPerpangkatan = function (nilai) {
+  return nilai * nilai;
+
+};
+
+hasilPerpangkatan(10);
