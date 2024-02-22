@@ -112,13 +112,32 @@
 // ***********************************************
 
 // Function Sebagai Argument Function Lain
-function duaKali(func) {
-  func();
-  func();
+// function duaKali(func) {
+//   func();
+//   func();
 
-}
+// }
 
-function LemparDadu() {
-  const hasil = Math.floor(Math.random() * 6) + 1;
-  console.log(hasil);
+// function LemparDadu() {
+//   const hasil = Math.floor(Math.random() * 6) + 1;
+//   console.log(hasil);
+// }
+
+// *********************************************
+
+// Function Bernilai Balik Function
+function hasilnyaAdalahFunction() {
+  const rend = Math.random()
+  if (rend > 0.10) {
+    return function () {
+      console.log('selamat, angkanya lebih besar!');
+
+    }
+
+  } else {
+    return function () {
+      console.log('maaf, mungkin bisa coba lagi!');
+
+    };
+  }
 }
