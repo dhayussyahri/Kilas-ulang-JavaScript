@@ -13,7 +13,14 @@
 
 // ********************************************************
 // Mendefinisikan Dan Menjalankan Function
-function nyanyi() {
-  console.log('Cek....');
-  console.log('Do Re Mii ....');
+// function nyanyi() {
+//   console.log('Cek....');
+//   console.log('Do Re Mii ....');
+// }
+
+// *******************************************************
+
+// Argument Dan Parameter Dalam Function
+function selamatPagi(name) {
+  console.log(`Hello, ${name}. Selamat Pagi`);
 }
