@@ -28,7 +28,17 @@
 // ********************************************************
 
 // Multiple Parameter Dan Argument
-function jumlahankan(a, b) {
-  const total = a + b;
-  console.log(total);
+// function jumlahankan(a, b) {
+//   const total = a + b;
+//   console.log(total);
+// }
+
+// *******************************************************
+
+// Statement Return Pada Function
+function jumlahkan(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    return false;
+  }
+  return a + b;
 }
