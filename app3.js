@@ -126,18 +126,34 @@
 // *********************************************
 
 // Function Bernilai Balik Function
-function hasilnyaAdalahFunction() {
-  const rend = Math.random()
-  if (rend > 0.10) {
-    return function () {
-      console.log('selamat, angkanya lebih besar!');
+// function hasilnyaAdalahFunction() {
+//   const rend = Math.random()
+//   if (rend > 0.10) {
+//     return function () {
+//       console.log('selamat, angkanya lebih besar!');
 
-    }
+//     }
 
-  } else {
-    return function () {
-      console.log('maaf, mungkin bisa coba lagi!');
+//   } else {
+//     return function () {
+//       console.log('maaf, mungkin bisa coba lagi!');
 
-    };
-  }
-}
+//     };
+//   }
+// }
+
+// *****************************************************
+
+// Definisi Sebuah Method
+function myFun() { //function biasa
+  console.log('Hi');
+  return 'Hello';
+
+};
+
+const myMath = { //object
+  perkalian : function (x, y) { //method
+    return x * y;
+  },
+
+};
