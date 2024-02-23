@@ -89,8 +89,25 @@
 
 // Return Secara Implisit Dari Arrow Function
 
-const random = () => (
-  Math.floor(Math.random() * 1000)
-)
+// const random = () => (
+//   Math.floor(Math.random() * 1000)
+// )
 
-// arrow function tanpa menggunakan return 
+// arrow function tanpa menggunakan return
+
+// ************************************************************
+
+// Memahami Settimeout Dan Setinterval
+
+// console.log('Hello ...');
+// setTimeout(() => {
+
+//   console.log('Masih disana engga? ');
+
+// }, 5000);
+
+// console.log('Saya pergi ya !');
+
+const interval = setInterval(() => {
+  console.log(Math.random());
+}, 2000);
