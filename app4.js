@@ -80,7 +80,17 @@
 //   return x * x;
 // };
 
-const random = () => {
-  return Math.floor(Math.random()) + 1;
+// const random = () => {
+//   return Math.floor(Math.random()) + 1;
 
-}
+// }
+
+// *************************************************************
+
+// Return Secara Implisit Dari Arrow Function
+
+const random = () => (
+  Math.floor(Math.random() * 1000)
+)
+
+// arrow function tanpa menggunakan return 
