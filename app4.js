@@ -214,3 +214,16 @@
 //   }
 //   return bestAnime;
 // });
+// ***************************************************************
+
+// Object This Di Dalam Arrow Function Mengarah Pada Object Global Window
+
+const person = {
+
+  firstName: 'Dhayus',
+  lastName: 'Syahri',
+  fullName: function () {
+    return `${this.fullName} ${this.lastName}`
+  },
+
+};
