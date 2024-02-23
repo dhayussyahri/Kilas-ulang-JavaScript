@@ -8,6 +8,39 @@
 //   }
 // });
 
+// const anime = [
+
+//   {
+//     title: 'Attack On Titan',
+//     rating: '90',
+//   },
+//   {
+//     title: 'One Piece',
+//     rating: '89',
+//   },
+//   {
+//     title: 'Bleach',
+//     rating: '82',
+//   },
+//   {
+//     title: 'Hunter X Hunter',
+//     rating: '80',
+//   },
+
+// ];
+
+// anime.forEach(function (anime) {
+//   console.log(`${anime.title} - ${anime.rating}/100`);
+// });
+
+// ****************************************************************
+
+// Map Method
+const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const angkaDouble = angka.map(function (num) {
+  return num * 2;
+});
+
 const anime = [
 
   {
@@ -29,6 +62,6 @@ const anime = [
 
 ];
 
-anime.forEach(function (anime) {
-  console.log(`${anime.title} - ${anime.rating}/100`);
+const animeList = anime.map(function (anime) {
+  return anime.title.toUpperCase();
 });
