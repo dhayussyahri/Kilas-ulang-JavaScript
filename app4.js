@@ -115,8 +115,49 @@
 // ************************************************************
 
 // Memiilh Data Tertentu Di Dalam Array Dengan Filter Method
-const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const angkaGanjil = angka.filter((n) => {
-  return n % 2 === 1;
-});
+// const angkaGanjil = angka.filter((n) => {
+//   return n % 2 === 1;
+// });
+
+// ***************************************************************
+
+// Menentukan Benar Atau Salah Pada Array Dengan Every Dan Some Method
+
+// const examScore = [80, 85, 70, 90, 93, 77];
+// const isGraduate = examScore.every((score) => score >= 75);
+
+// const anime = [
+
+//   {
+//     title: 'Attack On Titan',
+//     rating: 90,
+//     year: 2005,
+//   },
+//   {
+//     title: 'One Piece',
+//     rating: 89,
+//     year: 2007,
+//   },
+//   {
+//     title: 'Bleach',
+//     rating: 82,
+//     year: 2010,
+//   },
+//   {
+//     title: 'Hunter X Hunter',
+//     rating: 80,
+//     year: 2008,
+//   },
+//   {
+//     title: 'Tower Of God',
+//     rating: 80,
+//     year: 2023,
+//   },
+
+// ];
+
+// const isAnimeListNew = anime.some((anime) => anime.year > 2025);
+
+// ***************************************************************
