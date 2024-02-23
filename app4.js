@@ -161,3 +161,56 @@
 // const isAnimeListNew = anime.some((anime) => anime.year > 2025);
 
 // ***************************************************************
+
+// Mendapatkan Satu Nilai Sesuai Kondisi Dari Sebuah Array Dengan Reduce
+
+// const examScore = [80, 85, 70, 90, 93, 77];
+
+// let total = 0;
+// for (let score of examScore) {
+//   total += score;
+// }
+
+// const total = examScore.reduce((total, score) => {
+
+//   return total + score;
+// });
+
+// const anime = [
+
+//   {
+//     title: 'One Piece',
+//     rating: 89,
+//     year: 2007,
+//   },
+//   {
+//     title: 'Bleach',
+//     rating: 82,
+//     year: 2010,
+//   },
+
+//   {
+//     title: 'Attack On Titan',
+//     rating: 92,
+//     year: 2005,
+//   },
+//   {
+//     title: 'Hunter X Hunter',
+//     rating: 80,
+//     year: 2008,
+//   },
+//   {
+//     title: 'Tower Of God',
+//     rating: 80,
+//     year: 2023,
+//   },
+
+// ];
+
+// const bestAnime = anime.reduce((bestAnime, currAnime) => {
+//   console.log(bestAnime, currAnime);
+//   if (currAnime.rating > bestAnime.rating) {
+//     return currAnime;
+//   }
+//   return bestAnime;
+// });
