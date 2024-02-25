@@ -52,8 +52,19 @@
 
 // ******************************************************
 
-// Bongkar Juga Properti Object Ke Masing-Masing Variabel
+// Bongkar Element Array Ke Masing-Masing Variabel Dengan Mudah
 
-const nama = ['Alex', 'Dhayus', 'William', 'Peta', 'Hagi'];
+// const nama = ['Alex', 'Dhayus', 'William', 'Peta', 'Hagi'];
 
-const [gold, silver, bronze, ...peserta] = nama;
+// const [gold, silver, bronze, ...peserta] = nama;
+
+// ********************************************************
+
+// Bongkar Element Array Ke Masing-Masing Variabel Dengan Mudah 2
+
+const user = {
+   name: 'Dhayus',
+   email: 'contoh@gmail.com'
+};
+
+const { name:nama, email, phone='0821123123123'} = user;
