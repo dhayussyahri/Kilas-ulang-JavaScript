@@ -37,6 +37,16 @@
 // *****************************************************
 // Malas Bikin Parameter Banyak Bisa Pakai Rest Param
 
-const sunAll = (...nums) => {
-   return nums.reduce((total, el) => total + el);
-};
+// const sunAll = (...nums) => {
+//    return nums.reduce((total, el) => total + el);
+// };
+
+// const nama = ['Alex', 'Dhayus', 'William', 'Peta', 'Hagi'];
+
+// const pemenang = (gold, silver, bronze, ...sisa) => {
+//    console.log(`Medali emas diraih ${gold}`);
+//    console.log(`Medali Silver diraih ${silver}`);
+//    console.log(`Medali Bronze diraih ${bronze}`);
+//    console.log(`Peserta lainnya ${sisa}`)
+// };
+
