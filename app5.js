@@ -52,7 +52,7 @@
 
 // ******************************************************
 
-// 
+// Bongkar Juga Properti Object Ke Masing-Masing Variabel
 
 const nama = ['Alex', 'Dhayus', 'William', 'Peta', 'Hagi'];
 
