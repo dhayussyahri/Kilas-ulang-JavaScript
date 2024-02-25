@@ -50,3 +50,10 @@
 //    console.log(`Peserta lainnya ${sisa}`)
 // };
 
+// ******************************************************
+
+// 
+
+const nama = ['Alex', 'Dhayus', 'William', 'Peta', 'Hagi'];
+
+const [gold, silver, bronze, ...peserta] = nama;
