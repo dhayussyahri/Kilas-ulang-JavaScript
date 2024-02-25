@@ -62,9 +62,58 @@
 
 // Bongkar Element Array Ke Masing-Masing Variabel Dengan Mudah 2
 
-const user = {
-   name: 'Dhayus',
-   email: 'contoh@gmail.com'
-};
+// const user = {
+//    name: 'Dhayus',
+//    email: 'contoh@gmail.com'
+// };
 
-const { name:nama, email, phone='0821123123123'} = user;
+// const { name:nama, email, phone='0821123123123'} = user;
+
+// *********************************************************
+
+// Bongkar Properti Object Bisa Dilakukan Di Dalam Function
+
+// const user = {
+//    name: 'Dhayus',
+//    email: 'contoh@gmail.com',
+//    role: 'Admin',
+// };
+
+// const userAndRole = ({name,role}) => {
+//    return `${name} - ${role}`;
+// };
+
+const anime = [
+
+  {
+    title: 'One Piece',
+    rating: 89,
+    year: 2007,
+  },
+  {
+    title: 'Bleach',
+    rating: 82,
+    year: 2010,
+  },
+
+  {
+    title: 'Attack On Titan',
+    rating: 92,
+    year: 2005,
+  },
+  {
+    title: 'Hunter X Hunter',
+    rating: 80,
+    year: 2008,
+  },
+  {
+    title: 'Tower Of God',
+    rating: 80,
+    year: 2023,
+  },
+
+];
+
+const animes = anime.map(({title, year, rating}) => {
+   return `${title} (${year}) rating: ${rating}`;
+});
