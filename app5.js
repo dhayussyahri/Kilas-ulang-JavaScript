@@ -27,9 +27,16 @@
 // *****************************************************
 // Menggabungkan Property Object Dengan Object Lainnya
 
-const user = {
-   nama: 'Dhayus',
-   email: 'dhayus190997@gmail.com',
-};
+// const user = {
+//    nama: 'Dhayus',
+//    email: 'dhayus190997@gmail.com',
+// };
 
-const userBaru = { ...user, id: 12344, passwoord: 'password' };
+// const userBaru = { ...user, id: 12344, passwoord: 'password' };
+
+// *****************************************************
+// Malas Bikin Parameter Banyak Bisa Pakai Rest Param
+
+const sunAll = (...nums) => {
+   return nums.reduce((total, el) => total + el);
+};
